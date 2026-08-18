@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Moments - Image Gallery</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <h1>📸 Moments</h1>
+        <p>Memories that deserve to be remembered</p>
+    </header>
+
+
+    <!-- Category Buttons -->
+    <section class="filters">
+
+        <button class="filter-btn active" data-category="all">
+            All
+        </button>
+
+        <button class="filter-btn" data-category="family">
+            Family
+        </button>
+
+        <button class="filter-btn" data-category="friends">
+            Friends
+        </button>
+
+        <button class="filter-btn" data-category="travel">
+            Travel
+        </button>
+
+        <button class="filter-btn" data-category="college">
+            College
+        </button>
+
+    </section>
+
+
+    <!-- Image Gallery -->
+    <main class="gallery-container">
+
+        <div class="gallery">
+
+
+            <!-- FAMILY -->
+
+            <div class="gallery-item" data-category="family">
+                <img src="images/family1.jpg" alt="Family Photo 1">
+            </div>
+
+            <div class="gallery-item" data-category="family">
+                <img src="images/family2.jpg" alt="Family Photo 2">
+            </div>
+
+            <div class="gallery-item" data-category="family">
+                <img src="images/family3.jpg" alt="Family Photo 3">
+            </div>
+
+            <div class="gallery-item" data-category="family">
+                <img src="images/family4.jpg" alt="Family Photo 4">
+            </div>
+
+
+            <!-- FRIENDS -->
+
+            <div class="gallery-item" data-category="friends">
+                <img src="images/friends1.jpg" alt="Friends Photo 1">
+            </div>
+
+            <div class="gallery-item" data-category="friends">
+                <img src="images/friends2.jpg" alt="Friends Photo 2">
+            </div>
+
+            <div class="gallery-item" data-category="friends">
+                <img src="images/friends3.jpg" alt="Friends Photo 3">
+            </div>
+
+            <div class="gallery-item" data-category="friends">
+                <img src="images/friends4.jpg" alt="Friends Photo 4">
+            </div>
+
+
+            <!-- TRAVEL -->
+
+            <div class="gallery-item" data-category="travel">
+                <img src="images/travel1.jpg" alt="Travel Photo 1">
+            </div>
+
+            <div class="gallery-item" data-category="travel">
+                <img src="images/travel2.jpg" alt="Travel Photo 2">
+            </div>
+
+            <div class="gallery-item" data-category="travel">
+                <img src="images/travel3.jpg" alt="Travel Photo 3">
+            </div>
+
+            <div class="gallery-item" data-category="travel">
+                <img src="images/travel4.jpg" alt="Travel Photo 4">
+            </div>
+
+
+            <!-- COLLEGE -->
+
+            <div class="gallery-item" data-category="college">
+                <img src="images/college1.jpg" alt="College Photo 1">
+            </div>
+
+            <div class="gallery-item" data-category="college">
+                <img src="images/college2.jpg" alt="College Photo 2">
+            </div>
+
+            <div class="gallery-item" data-category="college">
+                <img src="images/college3.jpg" alt="College Photo 3">
+            </div>
+
+            <div class="gallery-item" data-category="college">
+                <img src="images/college4.jpg" alt="College Photo 4">
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <!-- Lightbox -->
+
+    <div class="lightbox" id="lightbox">
+
+        <button class="close-btn" id="closeBtn">
+            &times;
+        </button>
+
+        <button class="prev-btn" id="prevBtn">
+            &#10094;
+        </button>
+
+        <img id="lightboxImage" src="" alt="Preview">
+
+        <button class="next-btn" id="nextBtn">
+            &#10095;
+        </button>
+
+    </div>
+
+    <!-- JavaScript -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
